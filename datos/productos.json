@@ -1,0 +1,59 @@
+[
+    {
+        "codigo": "01",
+        "nombre": "Toro Clasico tinto",
+        "cantidad": "12 x 750cc.",
+        "precio": "$3200",
+        "imagen": "./img/01toroClasicoBotella.jpg"
+        
+    },
+    {
+        "codigo": "02",
+        "nombre": "Toro Tetra Tinto",
+        "cantidad": "Tetra 1L",
+        "precio": "$900",
+        "imagen": "./img/02toroTetraTinto.png"
+        
+    },
+    {
+        "codigo": "03",
+        "nombre": "Toro Tetra Blanco",
+        "cantidad": "Tetra 1L ",
+        "precio": "$900",
+        "imagen": "./img/03toroTetraBlanco.png"
+        
+    },
+    {
+        "codigo": "04",
+        "nombre": "Estancia Mendoza Tinto",
+        "cantidad": "12 x 750cc",
+        "precio": "$3200",
+        "imagen": "./img/04EMtintoBot.jpg"
+        
+    },
+    {
+        "codigo": "05",
+        "nombre": "Estancia Mendoza Blanco",
+        "cantidad": "12 x 750cc",
+        "precio": "$3200",
+        "imagen": "./img/05EMblancoBot.jpg"
+       
+    },
+    {
+        "codigo": "06",
+        "nombre": "Magnolia Malbec",
+        "cantidad": "12 x 750cc",
+        "precio": "$4200",
+        "imagen": "./img/06MagnoliaMBbot.jpg"
+       
+    },
+    {
+        "codigo": "07",
+        "nombre": "Magnolia Negra",
+        "cantidad": "12 x 750cc",
+        "precio": "$6200",
+        "imagen": "./img/07MagnoliaNegraBot.jpg"
+       
+    }
+    
+]

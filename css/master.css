@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Henny+Penny&family=Marcellus&family=Playfair+Display+SC:ital@0;1&family=Roboto:ital,wght@0,300;0,400;0,700;1,100;1,300&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+ul{
+   list-style-type: none;
+}
+a{
+   text-decoration: none;
+   color: white;
+   font-family:'DM Serif Display', serif;
+
+}
+#logo img{
+   width: 50%;  
+}
+
+#encabezado{
+
+   display: grid;
+   grid-template-columns: 2fr 1fr ;
+   background-color: #545454 ;
+   align-items: center;
+   position: fixed;
+   height: 15%;
+   z-index: 1;
+
+}
+
+#opcionesMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+}
+
+.tituloLogo{
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    color: white;
+    align-items: center;
+    animation-name: titulologo;
+    animation-duration: 4s;
+    position: relative;
+}
+
+@keyframes titulologo {
+   0%   { left:0px; top:0px;}
+   25%  { left:200px; top:0px;} 
+   100% { left:0px; top:0px;}
+ }
+     #tituloLogo{
+         display:grid;
+         grid-template-columns: 1fr 4fr;
+         align-items: center;
+         font-family:'DM Serif Display', serif;
+     }
+
+     .titulo{
+      background-color: #571414;
+      font-family: 'DM Serif Display', serif;
+      font-size: 3rem;
+      text-align: center;
+      color: white;
+      height: 100px;
+      margin: auto;
+      padding: 15px;
+     }
+     .tituloBlanco{
+       background-color: white;
+       height: 20px;
+     }
+ .tituloBanner1{
+   font-family: 'DM Serif Display', serif;
+   font-size: 1.2rem;
+   color: black;
+ }
+ .tituloBanner3{
+   font-family: 'DM Serif Display', serif;
+   font-size: 1.2rem;
+   color: white;
+}
+
+    
+    .productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+   
+   .card{
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+    border-color: #545454;
+    box-shadow: #545454;
+    
+   }
+   .btn{
+    
+    border-color: #571414;
+    background-color: #571414;
+    font-family: 'DM Serif Display', serif;
+   }
+  /*=== Aplicando CSS al Footer===*/
+ #piePagina{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+    align-items: center;
+    background-color: #545454;
+    color: white;
+}
+#redesSociales{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    color: white;
+    font-size: 2rem;
+}
+
+#contacto{
+   font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 1rem;  
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.controls {
+    width: 100%;
+
+}
+.controls{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+}
+#infoNosotros{
+   font-family: 'DM Serif Display', serif;
+   font-size: 1.2rem;
+   color: white;
+   text-align: center;
+
+}
+.infoParrafo{
+   font-family: 'DM Serif Display', serif;
+   font-size: 1rem;
+}
+#subir{
+    font-size: 2rem;
+}
